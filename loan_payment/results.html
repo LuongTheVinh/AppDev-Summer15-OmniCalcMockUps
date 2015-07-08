@@ -4,7 +4,7 @@
   <title>Omnicalc</title>
 
   <!-- Connect to Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://bootswatch.com/readable/bootstrap.min.css">
 
   <!-- Connect to Font Awesome CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -24,6 +24,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-default hidden-md hidden-lg">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <i class="fa fa-calculator"></i> Omnicalc
+        </a>
+      </div>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-3 hidden-xs hidden-sm">
+
+          <div class="list-group">
+            <a href="../word_count/new.html" class="list-group-item">
+              <i class="fa fa-book"></i> Word Count
+            </a>
+            <a href="../loan_payment/new.html" class="list-group-item">
+              <i class="fa fa-money"></i> Loan Payment
+            </a>
+            <a href="../time_between/new.html" class="list-group-item">
+              <i class="fa fa-clock-o"></i> Time Between
+            </a>
+            <a href="../descriptive_statistics/new.html" class="list-group-item">
+              <i class="fa fa-bar-chart"></i> Descriptive Statistics
+            </a>
+          </div>
+
+        </div>
+        <div class="col-sm-9">
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              Loan Payment Results
+            </div>
+            <div class="panel-body">
+              <dl class="dl-horizontal">
+                <dt>APR</dt>
+                <dd>10.0%</dd>
+
+                <dt>Number of years</dt>
+                <dd>10</dd>
+
+                <dt>Principal</dt>
+                <dd>$100,000.00</dd>
+
+                <dt>Monthly Payment</dt>
+                <dd>$1,321.51</dd>
+              </dl>
+            </div>
+          </div>
+
+        </div>
+    </div>
+  </div>
 
 </body>
 </html>
